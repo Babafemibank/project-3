@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="logo-web.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <title>Interactive rating component</title>
+<style>
+
+</style>
+</head>
+<body>
+
+  <!-- Rating state start -->
+<div class="rating" id="rating">
+  <img src="icon-star.svg" class="star" alt="">
+  <h1>How did we do?</h1>
+<p>
+  Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!</p>
+
+<div class="circle-group">
+  <div class="circle hover">1</div>
+  <div class="circle hover">2</div>
+  <div class="circle hover">3</div>
+  <div class="circle hover">4</div>
+  <div class="circle hover">5</div>
+</div>
+<button class="btn" onclick="rate()"> Submit</button>
+
+</div>
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+<div class="alert" id="alert">
+
+
+<img src="illustration-thank-you.svg" class="pop" alt="">
+
+ <p class="select"> You selected <span id="span"></span>  out of 5
+ </p>
+  <h1>Thank you!</h1>
+<p>
+  We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch!</p>
+</div>
+   <!-- Thank you state end  -->
+<script src="script.js"></script>
+</body>
+</html>

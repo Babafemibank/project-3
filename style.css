@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.rating, .alert{
+    background-color: hsl(213, 19%, 18%);
+    width: 30%;
+    border-radius: 15px;
+   padding-bottom: 15px;
+    margin: auto;
+    margin-top: 30vh;
+    background-position: left 25px top 25px;
+    background-repeat: no-repeat;
+    padding-right: 7px;
+    
+}
+img.star{
+    transform: translate(25px, 25px);
+    border-radius: 50%;
+    background-color: hsl(217, 12%, 63%);
+    padding: 5px;
+}
+h1{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%);
+    padding-left: 15px;
+    padding-top: 70px;
+}
+p{
+    color: hsla(0, 0%, 100%, .7);
+    font-size: 18px;
+    word-spacing: 1.5 rem;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.circle-group{
+    display: flex;
+    justify-content: space-evenly;
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 8%);
+    text-align: center;
+    line-height: 30px;
+   margin: 8px ;
+   vertical-align: middle;
+   color:  hsl(0, 0%, 100%);
+   cursor: pointer;
+  }
+  .hover:hover{
+    background-color:hsl(217, 12%, 63%) ;
+  }
+  button{
+    width: 80%;
+    height: 35px;
+    text-align: center;
+border-radius: 20px;
+display: flex;
+margin: 15px auto;
+flex-direction: row;
+justify-content: center;
+color: hsl(25, 97%, 53%);
+background-color: hsl(0, 0%, 100%);
+border: 2px solid hsl(25, 97%, 53%);
+font-size: large;
+font-weight: bold;
+cursor: pointer;
+align-items: center;
+  }
+
+.active{
+    background-color: hsl(25, 97%, 53%);
+    transition: ease-in;
+}
+
+img.pop{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    padding-top: 40px;
+}
+p.select{
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(25, 97%, 53%);
+ text-align: center;
+ border-radius: 15px;
+display: table;
+margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 5px;
+margin-bottom: -35px;
+ 
+}
+
+.alert  h1, .alert  p{
+    text-align: center;
+}
+.alert{
+    transform: translate(0, -550px);
+   visibility: hidden;
+}
+@media screen and (max-width: 720px) {
+    .rating, .alert{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 520px) {
+    .rating, .alert{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .rating, .alert{
+        width: 90%;
+    }
+}
+
+
