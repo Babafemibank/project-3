@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Babafemibank/project-3)
-- Live Site URL: [Add live site URL here](https://babafemibank.github.io/project-3/)
+- Solution URL: [Solution URL](https://github.com/Babafemibank/project-3)
+- Live Site URL: [Live site URL](https://babafemibank.github.io/project-3/)
 
 ## My process
 
