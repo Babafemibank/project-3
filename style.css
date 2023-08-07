@@ -111,7 +111,11 @@ margin-bottom: -35px;
 }
 @media screen and (max-width: 720px) {
     .rating, .alert{
+        margin-top: 10vh;
         width: 50%;
+    }
+    .alert{
+        transform: translate(0, -500px);
     }
 }
 @media screen and (max-width: 520px) {
@@ -125,5 +129,10 @@ margin-bottom: -35px;
         width: 90%;
     }
 }
-
-
+@media screen and (max-width: 220px) {
+    .alert{
+        transform: translate(0, -530px);
+}.rating, .alert{
+    margin-top: 5vh;
+}
+}
